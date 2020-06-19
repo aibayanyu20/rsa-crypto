@@ -1,0 +1,23 @@
+{
+    "name": "aibayanyu/rsa-crypto",
+    "description": "this is a rsa-crypto",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aibayanyu",
+            "email": "aibayanyu@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "5.* || 7.*",
+        "ext-openssl": "*"
+    },
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "aibayanyu\\rsa\\": "src/"
+        }
+    },
+    "version": "1.0.0"
+}
